@@ -1,5 +1,8 @@
 {
     "controllers": {
+        "@symfony/stimulus-bridge": {
+
+        },
         "@symfony/ux-turbo": {
             "turbo-core": {
                 "enabled": true,
