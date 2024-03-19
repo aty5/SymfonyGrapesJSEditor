@@ -12,6 +12,7 @@ import './styles/app.css';
 // import the function from greet.js (the .js extension is optional)
 // ./ (or ../) means to look for a local file
 import greet from './greet.js';
+import grapes from './grapes.js';
 
 //test greetings
 /* document.addEventListener('DOMContentLoaded', () => {
