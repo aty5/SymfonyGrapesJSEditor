@@ -33,7 +33,8 @@
 		<div {{ stimulus_controller('hello') }}></div>
 
 		<div {{ stimulus_controller('say-hello') }}>
-			<input type="text" {{ stimulus_target('say-hello', 'name') }}>
+			<label for="stimulus-test"> Stimulus Test</label> <br>
+			<input name="stimulus-test" type="text" {{ stimulus_target('say-hello', 'name') }}>
 
 			<button {{ stimulus_action('say-hello', 'greet') }}>
 				Greet
